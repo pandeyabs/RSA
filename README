@@ -1,0 +1,3 @@
+This code extracts the two prime numbers P & Q from the Modulus, Private Exponent, Public Exponent ( N, d, e) for a 2048 bit RSA key pair. 
+In order to handle the very large numbers, I used Big Integer library in Java. The RSA Key pair was generated with openssl. To verify the working of code, please take any openssl rsa generation example and replace the exponents in the code which  are hard coded right now. 
+The code was tuned with YourKit Java profiler to have low  average computation time and low memory footprint.
